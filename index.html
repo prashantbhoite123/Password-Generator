@@ -5,8 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
+    <div class="container">
+      <div class="content">
+        <h2 class="Password-h1">Password Generator</h2>
+        <div class="use-con">
+          <div class="userVal"></div>
+          <div class="copyBtn"></div>
+        </div>
+        <input type="range" min="1" max="8" id="rangBtn" />
+        <ul>
+          <li>
+            Include Numbers (0,9)
+            <input type="checkbox" id="numberChe" />
+          </li>
+          <li>
+            Include Lowercase Letter(a,z)
+            <input type="checkbox" id="lowerChe" />
+          </li>
+          <li>
+            Include Uppercase Letter(A,z)
+            <input type="checkbox" id="UpperChe" />
+          </li>
+          <li>
+            Include Symbol (@,#,$)
+            <input type="checkbox" id="SymbolChe" />
+          </li>
+        </ul>
+        <button class="colorBtn">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTTnyOIWycfzgSe3M8QWYG6wFKrwaLUGUshqLip_Nsw&s"
+            alt=""
+          />
+          <p>Generate Password</p>
+        </button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
