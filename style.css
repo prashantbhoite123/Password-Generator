@@ -124,21 +124,23 @@ input {
     width: 100vw;
   }
   .Password-h1 {
-    margin-bottom: 20vw;
+    margin-bottom: 6vw;
     font-size: 8vw;
     color: #000;
   }
   .use-con {
-    margin-bottom: 7vw;
+    padding: 3vw;
     font-size: 7vw;
     height: 13vw;
     width: 80vw;
   }
   li {
+    padding: 3vw;
     font-size: 5vw;
     height: 13vw;
     width: 80vw;
     margin-top: 5vw;
+    margin-bottom: 10vw;
   }
   input {
     height: 6vw;
@@ -148,6 +150,7 @@ input {
     width: 80vw;
     height: 5vw;
     margin-top: 2vw;
+    /* margin-bottom: 15vw; */
   }
   .colorBtn {
     margin-top: 6vw;
