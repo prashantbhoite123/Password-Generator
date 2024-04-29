@@ -26,11 +26,12 @@
 }
 
 .content {
+  backdrop-filter: blur(2px);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* background-color: pink; */
+  background-color: rgba(255, 255, 255, 0.4);
   background-image: radial-gradient(
     circle 325px at 19.2% 64.8%,
     rgba(254, 62, 101, 1) 9.7%,
@@ -93,7 +94,7 @@ input {
   border-radius: 2vw;
   height: 3vw;
   border: none;
-  background-color: lightgreen;
+  background-color: rgb(88, 220, 174);
   border: 2px solid black;
   box-shadow: 2px 2px 2px 2px #000;
   width: 20vw;
@@ -118,8 +119,6 @@ input {
     width: 100vw;
   }
   .content {
-    /* display: flex; */
-    /* justify-content: space-between/; */
     height: 100vh;
     width: 100vw;
   }
@@ -150,7 +149,6 @@ input {
     width: 80vw;
     height: 5vw;
     margin-top: 2vw;
-    /* margin-bottom: 15vw; */
   }
   .colorBtn {
     margin-top: 6vw;

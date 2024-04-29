@@ -16,25 +16,25 @@
         <h2 class="Password-h1">Password Generator</h2>
         <div class="use-con">
           <div class="userVal"></div>
-          <div class="copyBtn"></div>
+          <div class="copyBtn"><i class="fa-regular fa-copy"></i></div>
         </div>
         <input type="range" min="1" max="8" id="rangBtn" />
         <ul>
           <li>
-            Include Numbers (0,9)
-            <input type="checkbox" id="numberChe" />
+            Include Numbers (0,9) s
+            <input type="radio" name="options" value="option1" id="numberChe" />
           </li>
           <li>
             Include Lowercase Letter(a,z)
-            <input type="checkbox" id="lowerChe" />
-          </li>
+            <input type="radio" name="options" value="option2" id="lowerChe" />
+          </li> 
           <li>
             Include Uppercase Letter(A,z)
-            <input type="checkbox" id="UpperChe" />
+            <input type="radio" name="options" value="option3" id="UpperChe" />
           </li>
           <li>
             Include Symbol (@,#,$)
-            <input type="checkbox" id="SymbolChe" />
+            <input type="radio" name="options" value="option4" id="SymbolChe" />
           </li>
         </ul>
         <button class="colorBtn">
