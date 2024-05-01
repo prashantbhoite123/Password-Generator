@@ -18,23 +18,27 @@
           <div class="userVal"></div>
           <div class="copyBtn"><i class="fa-regular fa-copy"></i></div>
         </div>
-        <input type="range" min="1" max="8" id="rangBtn" />
+        <input type="range" min="6" max="20" id="range" />
+        <label for="range" id="rangeLabel"> Length 6 </label>
         <ul>
           <li>
             Include Numbers (0,9) s
-            <input type="radio" name="options" value="option1" id="numberChe" />
+            <input
+              type="checkbox"
+              name="options"
+              value="option1"
+              id="numberCheck"
+            />
           </li>
-          <li>
-            Include Lowercase Letter(a,z)
-            <input type="radio" name="options" value="option2" id="lowerChe" />
-          </li> 
-          <li>
-            Include Uppercase Letter(A,z)
-            <input type="radio" name="options" value="option3" id="UpperChe" />
-          </li>
+
           <li>
             Include Symbol (@,#,$)
-            <input type="radio" name="options" value="option4" id="SymbolChe" />
+            <input
+              type="checkbox"
+              name="options"
+              value="option4"
+              id="SymbolCheck"
+            />
           </li>
         </ul>
         <button class="colorBtn">
